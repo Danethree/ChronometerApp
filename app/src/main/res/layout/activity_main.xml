@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+
+
+    >
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:backgroundTint="@color/blackSec"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/chronometer"
+            android:layout_centerHorizontal="true"
+            />
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausar"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:backgroundTint="@color/blackSec"
+        android:layout_below="@id/start"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zerar"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/blackSec"
+        android:layout_below="@+id/pause"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
